@@ -1,0 +1,11 @@
+file = open("text.txt",'r')
+# content = file.read()
+# print(content)
+# file.seek(0)
+# content = file.readlines()
+# print(content)
+# file.close()
+content = file.readlines()
+file.close()
+for i in content:
+     print(len(i) - 1)
